@@ -29,6 +29,16 @@
         android:hint="비밀번호를 입력하세요."
         android:inputType="numberPassword" />
 
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그인" />
+
 
 
 </LinearLayout>
