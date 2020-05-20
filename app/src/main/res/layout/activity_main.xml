@@ -29,10 +29,11 @@
         android:hint="비밀번호를 입력하세요."
         android:inputType="numberPassword" />
 
-    <ImageButton
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@mipmap/ic_launcher" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="자동 로그인"
+        android:checked="true"/>
 
     <Button
         android:layout_width="match_parent"
